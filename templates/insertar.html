@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Registrar Persona</title>
+</head>
+
+<body>
+    <h2>Nueva Persona</h2>
+    <form action="/guardar" method="post">
+        <input type="text" name="tipo_persona" placeholder="Tipo Persona">
+        <br><br>
+        <input type="text" name="nombres" placeholder="Nombres">
+        <br><br>
+        <input type="text" name="apaterno" placeholder="Apellido Paterno">
+        <br><br>
+        <input type="text" name="amaterno" placeholder="Apellido Materno">
+        <br><br>
+        <input type="text" name="razon_social" placeholder="Razon Social">
+        <br><br>
+        <input type="text" name="nombre_comercial" placeholder="Nombre Comercial">
+        <script>
+            document.getElementById("nombre_comercial").value = "";
+        </script>
+        <br><br>
+        <input type="text" name="id_tipo_documento" placeholder="Cod Tipo Documento">
+        <br><br>
+        <input type="text" name="numero_documento" placeholder="Numero Documento">
+        <br><br>
+        <input type="text" name="telefono" placeholder="Telefono">
+        <br><br>
+        <input type="text" name="email" placeholder="Email">
+        <br><br>
+        <input type="text" name="id_nacionalidad" placeholder="Cod Nacionalidad">
+        <br><br>
+        <input type="text" name="estado" placeholder="Estado">
+        <br><br>
+        <button>
+            Guardar
+        </button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+# Carpetas a restringir 
+
+# Carpeta entorno virtual
+myenv/
+
+# Archivo credenciales
+.env
+
+# Temporales
+pycache/
+
+# Archivo con extension
+*.pyc
