@@ -59,4 +59,4 @@ proyecto_bigdata/
 
 Proyecto desarrollado aplicando conceptos de Big Data, Python y bases de datos NoSQL.
 Nikolas Faviano Saldaña VArgas
-Fecha: 07.08.2026
+Fecha: 14.08.2026
